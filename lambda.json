@@ -1,0 +1,14 @@
+{
+    "name": "AwscostToSlack",
+    "description": "DESCRIPTION",
+    "region": "us-east-1",
+    "handler": "lambda_function.lambda_handler",
+    "role": "arn:aws:iam::170316645840:role/lambda_sample_execution",
+    "timeout": 300,
+    "memory": 128,
+    "variables":
+      {
+        "slackPostURL":"https://hooks.slack.com/services/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",
+        "slackChannel":"#general"
+      }
+  }
